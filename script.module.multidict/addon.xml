@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.multidict"
+	   name="multidict"                                                 
+	   version="4.7.6"
+	   provider-name="Darkness">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Multidict implementation.</summary>
+    <description lang="en">HTTP Headers and URL query string require specific data structure:
+multidict. It behaves mostly like a dict but it can have
+several values for the same key.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
