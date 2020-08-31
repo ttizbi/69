@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.attr"                                                                                                                                    
+	   name="attr"                                                 
+	   version="19.3.0"                                                                                                                                        
+	   provider-name="Darkness">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+	<import addon="script.module.six" version="0.0.1"/>
+	<import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Simple decorator to set attributes of target function or class in a DRY way.</summary>
+    <description lang="en">Simple decorator to set attributes of target function or class in a DRY way.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
