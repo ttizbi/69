@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.requests_toolbelt"
+	   name="requests toolbelt"                                                 
+	   version="0.9.1"                                                                                                                                        
+	   provider-name="Darkness">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A utility belt for advanced users of python-requests</summary>
+    <description lang="en">A utility belt for advanced users of python-requests</description>
+    <platform>all</platform>
+  </extension>
+</addon>
