@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.async_timeout"
+	   name="async timeout"                                                 
+	   version="3.0.1"
+	   provider-name="Darkness">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Timeout context manager for asyncio programs</summary>
+    <description lang="en">Timeout context manager for asyncio programs</description>
+    <platform>all</platform>
+  </extension>
+</addon>
