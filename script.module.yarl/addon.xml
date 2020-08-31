@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.yarl"
+	   name="yarl"                                                 
+	   version="1.5.1"
+	   provider-name="Darkness">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Yet another URL library.</summary>
+    <description lang="en">Yet another URL library</description>
+    <platform>all</platform>
+  </extension>
+</addon>
